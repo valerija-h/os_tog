@@ -1,0 +1,2 @@
+# ignore Jupyter Notebook from GitHub language stats
+*.ipynb -linguist-detectable
