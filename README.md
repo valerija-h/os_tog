@@ -88,7 +88,7 @@ This repository provides all the components that OS-TOG used in real-world exper
 ### Database and Annotation File
 The image database and database annotation file used in physical experiments can be downloaded from __here__. The annotation file uses the following JSON structure below. Note that a sample scene to test inference is provided in `samples/example_scene.png`. You can try using OS-TOG on your own database by creating an annotation file that follows this structure and modifying the paths in `config.py`.
 
-```json
+```
 {
     "objects"               : [object],
     "tasks"                 : [task]
