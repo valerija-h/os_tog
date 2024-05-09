@@ -8,7 +8,7 @@ models leverage references within a database for OS-TOG to
 generalize to both novel objects and tasks.
 
 <p align="center">
-<img src="samples/visuals/system.png" width="80%" style="background-color:#efefef;padding:5px;border-radius:2px">
+<img src="samples/visuals/new_system.png" width="80%" style="padding:5px;border-radius:2px">
 </p>
 <p align="center">
 <a href="https://ieeexplore.ieee.org/document/10288069">IEEEXplore</a> | arXiv
