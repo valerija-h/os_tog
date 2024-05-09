@@ -50,7 +50,7 @@ The final framework used the OCID_grasp dataset, the Cornell grasp dataset and t
 - __UMD affordance__ - https://users.umiacs.umd.edu/~fer/affordance/part-affordance-dataset/
 
 ### Downloading Model Checkpoints
-The model checkpoints that were used in real-world experiments can be downloaded from __here__. If running the framework from the notebook it is recommended to create a directory for them in the `models/` directory (e.g. `models/os_tog/`) and check the paths in `config.py`.
+The model checkpoints that were used in real-world experiments can be downloaded from __[here](https://github.com/valerija-h/os_tog/releases/tag/v1.0)__. If running the framework from the notebook it is recommended to create a directory for them in the `models/` directory (e.g. `models/os_tog/`) and check the paths in `config.py`.
 
 ### Code File Structure
 
@@ -83,10 +83,10 @@ d.generate_COCO_from_OCID(dataset_path, split, save_path=save_path)
 [INFO] Saving "training" annotation file at "../data/annotations/OCID_training_annotations.json".
 ```
 ## Real-world Experiments
-This repository provides all the components that OS-TOG used in real-world experiments; the trained model checkpoints, a database of the objects used (images and annotations) and object mask annotations of the UMD part-affordance clutter dataset that were manually annotated to train and improve the performance of the instance segmentation model in multi-object settings. These additional components can be downloaded from __here__.
+This repository provides all the components that OS-TOG used in real-world experiments; the trained model checkpoints, a database of the objects used (images and annotations) and object mask annotations of the UMD part-affordance clutter dataset that were manually annotated to train and improve the performance of the instance segmentation model in multi-object settings. These additional components can be downloaded from __[here](https://github.com/valerija-h/os_tog/releases/tag/v1.0)__.
 
 ### Database and Annotation File
-The image database and database annotation file used in physical experiments can be downloaded from __here__. The annotation file uses the following JSON structure below. Note that a sample scene to test inference is provided in `samples/example_scene.png`. You can try using OS-TOG on your own database by creating an annotation file that follows this structure and modifying the paths in `config.py`.
+The image database and database annotation file used in physical experiments can be downloaded from __[here](https://github.com/valerija-h/os_tog/releases/tag/v1.0)__. The annotation file uses the following JSON structure below. Note that a sample scene to test inference is provided in `samples/example_scene.png`. You can try using OS-TOG on your own database by creating an annotation file that follows this structure and modifying the paths in `config.py`.
 
 ```
 {
