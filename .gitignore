@@ -6,6 +6,7 @@ data/*
 !data/annotations
 data/annotations/*
 !data/annotations/.gitkeep
+!data/JSON_STRUCTURE.md
 
 **/build/
 **/dist/
